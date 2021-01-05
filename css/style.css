@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  margin: auto;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: gray;
+}
+h2{
+  color: black;
+}
+
+section{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#temperature{
+  border: grey 2px solid;
+  padding: 10px 10px;
+  
+}
+
+#converter{
+  padding: 10px 10px;
+}
+
+.display{
+  background: lightgray;
+  margin: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
